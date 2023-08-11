@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: angular-15-client-tutorialsonline
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/atul-fulambarkar-tenant/tutorialsonline/angular-15-client-tutorialsonline@sha256:1ab762498775321548b1d6f37a00a483771557f2de7479730d8f285302dcbc1a
         imagePullPolicy: Always
         name: container-image
         ports:

@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: spring-boot-server-tutorialsonline
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads/atul-fulambarkar-tenant/tutorialsonline/spring-boot-server-tutorialsonline@sha256:f858154db0abe7766b37099eeb31205b89e7c69b3f21a0bd89b4bce08cdbaac8
         name: my-java-springboot
         ports:
         - containerPort: 8081

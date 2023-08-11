@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: spring-boot-server-tutorialsonline
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/atul-fulambarkar-tenant/tutorialsonline/spring-boot-server-tutorialsonline@sha256:f858154db0abe7766b37099eeb31205b89e7c69b3f21a0bd89b4bce08cdbaac8
+        name: my-java-springboot
+        resources: {}
+status: {}
